@@ -1,0 +1,22 @@
+﻿<Page x:Class="WpfAppHotel.PageMain"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:WpfAppHotel"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="PageMain"
+      Style="{StaticResource pgStyle}">
+    <Grid>
+
+        <StackPanel Grid.Row="0" Orientation="Vertical" Margin="10">
+            <TextBlock HorizontalAlignment="Center" FontSize="32" >Путешествуй по России</TextBlock>
+            <StackPanel Orientation="Vertical">
+                <Button x:Name="btnHotel" Template="{StaticResource btnStyle}" Content="Отели"  Margin="10" Click="btnHotel_Click"/>
+                <Button x:Name="btnTour" Template="{StaticResource btnStyle}" Content="Туры"  Margin="10" Click="btnTour_Click"/>
+            </StackPanel>
+        </StackPanel>
+
+    </Grid>
+</Page>
