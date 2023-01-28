@@ -50,7 +50,7 @@
             </Grid>
         </GroupBox>
 
-        <ListView x:Name="ListTour" Grid.Row="1" Height= "350" ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Center">
+        <ListView x:Name="ListTour" Grid.Row="1" Height= "400"  ScrollViewer.HorizontalScrollBarVisibility="Disabled" HorizontalAlignment="Center">
 
             <ListView.ItemTemplate>
                 <DataTemplate>

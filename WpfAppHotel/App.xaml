@@ -19,7 +19,7 @@
         </Style>
 
         <ControlTemplate x:Key="btnStyle" TargetType="Button">
-            <Border CornerRadius="10" Background="#445c93" Height="50" Width="200">
+            <Border CornerRadius="10" Background="#445c93" Height="50" Width="250">
                 <ContentControl  Content="{TemplateBinding Content}" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" Foreground=" #bae3e8" FontSize="20"/>
             </Border>
         </ControlTemplate>
